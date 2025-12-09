@@ -1,0 +1,25 @@
+ve<-c(1,2,3)
+ve[1]
+ve<-1:10
+ve<-(1:10)
+ve
+vector("numeric",10)
+vec<-vector("numeric",10)
+for(i in 10)
+{
+  vec[i]<-i+1
+}
+vec
+vec[vec>10]
+seq(1,5,by=0.5)
+rep("A",times=5)
+c(1,2,3,4)+c(10,20)
+typeof(c(TRUE,5))
+typeof(c(3.5,"anil"))
+vec<-c(1,2,3,4,40,50)
+vec[4]
+vec[c(1,5)]
+v1<-1:50
+v1[v1>30]
+v2<-c(a=10,b=20,c=30)
+v2["b"]
