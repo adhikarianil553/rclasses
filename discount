@@ -1,0 +1,9 @@
+p=float(input("input price"))
+if p>1000:
+    dis=p-(20/100)*p
+    print(f"{dis}is the discounted amount")
+elif p>500 and p<1000:
+    dis=p-(10/100)*p
+    print(f'{dis}is the discounted amount')
+else:
+    print(f'{p}is the discounted amount')

@@ -1,0 +1,9 @@
+'''i=2
+for i in range(2,22,2):
+    print(i)'''
+#sum of all number
+s=0
+n=int(input("enter a number"))
+for i in range(1,n+1,1): 
+   s+=i
+print("sum is:",s)

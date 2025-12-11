@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>
+Javascript Example
+</title>
+</head>
+<body>
+<h1>Using of Javascript</h1>
+<script>
+var breakline="<br>";
+document.write("Content Display using document.write.");
+window.alert("Display MessageBox using Window.alert");
+var name=prompt("Enter your Name:" , "Name Please");
+document.write("<br>Hello "+name+". How are you?"+breakline);
+var numb=prompt("Enter any number to display Multiplication Table:", "Only Number");
+document.write(breakline+"Displaying Multiplication Table:"+breakline);
+for(i=1;i<=10;i++){
+mul=numb*i;
+document.write(numb+"x"+i+"="+mul);
+document.write(breakline);
+}
+</script>
+</body>
+</html>

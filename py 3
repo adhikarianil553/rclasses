@@ -1,0 +1,25 @@
+print("menu")
+print("1.addition\n2.substractions\n3.multipication\n4.division")
+choice=int(input("enter your choice."))
+if choice==1:
+    n1=float(input("Enter your first number."))
+    n2=float(input("Enter your second number."))
+    add=n1+n2
+    print("the result is",add)
+elif choice==2:
+    n1=float(input("Enter your first number."))
+    n2=float(input("Enter your second number."))
+    add=n1-n2
+    print("the result is",add)
+elif choice==3:
+    n1=float(input("Enter your first number."))
+    n2=float(input("Enter your second number."))
+    add=n1*n2
+    print("the result is",add)
+elif choice==4:
+    n1=float(input("Enter your first number."))
+    n2=float(input("Enter your second number."))
+    add=n1/n2
+    print("the result is",add)
+else:
+    print("input")

@@ -1,0 +1,40 @@
+'''n=int(input("enter a number"))
+for i in range(1,11,1):
+    pro = n*i
+    print(pro)'''
+#use use to display a message done after exeuction of first 5 natural numbers#
+'''for i in range(1,6,1):
+    print(i)
+    print("done")'''
+#display fibonacci series up to 10 terms 
+'''a,b=0,1
+print(a)
+print(b)
+for i in range(8):
+    c=a+b
+    print(c)
+    a=b
+    b=c'''
+#display fibonacci series up to n terms
+'''a,b=0,1
+n=int(input("how many terms?"))
+print(a)
+print(b)
+for i in range(1,n-1,1):
+    c=a+b
+    print(c)
+    a=b
+    b=c'''
+#factorial of given number
+'''fact=1
+n=int(input("enter a number"))
+for i in range(1,n+1,1):
+    fact=fact*i
+print(f"the factorial of {n} is {fact}")'''
+#display and count factors of number
+n=int(input("enter a number:"))
+for i in range(1,n+1,1):
+    if n%i == 0:
+        print(i)
+        count=count+1
+print("the count of ")

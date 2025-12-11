@@ -1,0 +1,10 @@
+def calculate_earnings(gross_salary):
+    salary=100
+    commission=0.15*gross_sales
+    total_earning=salary+commission
+    return total_earning
+
+gross_sales=float(input("enter gross sales for last week(in RM)"))
+earnings=calculate_earnings(gross_sales)
+print("the salesperson's earning for last week is",earnings)
+

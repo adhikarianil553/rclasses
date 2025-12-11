@@ -1,0 +1,20 @@
+#find the total marks with their percentege#
+a=int(input("enter the marks obtained in english: "))
+b=int(input("enter the marks obtained in science: "))
+c=int(input("enter the marks obtained in mathematics: "))
+d=int(input("enter the marks obtained in social: "))
+e=int(input("enter the marks obtained in nepali: "))
+total=a+b+c+d+e
+print("the total marks obtained is ", total)
+per=(total/500)*100
+if per<0 or per>100: 
+    print("error")
+elif per<45:
+    print("you're fail")
+elif per>45 and per<60:
+    print("you're pass.")
+elif per>60 and per<85:
+    print("you're very good.")
+elif per>85 and per<100:
+    print("you're excellent")
+

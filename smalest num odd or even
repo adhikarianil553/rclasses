@@ -1,0 +1,18 @@
+a=int(input("enter a number"))
+b=int(input("enter other number"))
+c=int(input("enter another number"))
+if a<b and a<c:
+    if a%2==0:
+        print(f"the number{a} is smallest even.")
+    else:
+        print(f"the number{a} is smallest odd.")
+elif b<a and b<c:
+    if b%2==0:
+        print(f"the number{b} is smallest even.")
+    else:
+        print(f"the number{b} is smallest odd.")
+elif c<a and c<b: 
+    if c%2==0:
+        print(f"the number{c} is smallest even.")
+    else:
+        print(f"the number{c} is smallest odd.")

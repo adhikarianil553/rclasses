@@ -1,0 +1,20 @@
+name=str(input("enter your name"))
+std=int(input("enter your class"))
+sec=str(input("enter your section"))
+grade=str(input("enter your grade"))
+print("--------------------")
+print(f"studient's name{name}")
+print(f"studient's class{std}")
+print(f"studient's section{sec}")
+if grade==str("A"):
+    print(f"studient's grade: outstanding")
+elif grade==str("B"):
+    print(f"studient's grade: excellent")
+elif grade==str("C"):
+    print(f"studient's grade: very good")
+elif grade==str("D"):
+    print(f"studient's grade: good")
+elif grade==str("E"):
+    print(f"studient's grade: satisfactory")
+else:
+    print("Grade : unreconzined ")

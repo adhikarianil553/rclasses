@@ -1,0 +1,20 @@
+name=str(input("enter your name:"))
+std=int(input("enter your class:"))
+sec=str(input("enter your section:"))
+gread=int(input("enter your gread:"))
+print(f"studient's name,{name}")
+print(f"studient's class,{std}")
+print(f"studient's section,{sec}")
+if gread<0 or gread>100:
+    print("Error")
+elif gread<50:
+   print("you are fail")
+elif gread<60 and gread>50:
+    print("you are pass as a good studient")
+elif gread<80 and gread>60:
+    print("you are pass as a very good studient")
+elif gread<100 and gread>80:
+    print("you are pass as a outstanding student")
+
+    
+

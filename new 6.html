@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<title>
+LAB3
+</title>
+<body>
+
+<h1> Using HTML Form </h1>
+<h2> Students Registration</h2>
+<form action = "process.html" method="GET">
+<p> Name : <input type = "text" name="name" placeholder = "Enter your name"> </p>
+<p> Gender : <input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="other">Others </p>
+<p> DOB : <input type="date" name="dob"></p>
+<p> Email : <input type="email" name="email" placeholder="Enter your email"></p>
+<p> Password : <input type="password" name="pass" placeholder="Enter your password"></p>
+<p> Please Choose Image: <input type="file" name="image" accept=".jpg" > </p>
+<p> Please Choose Document: <input type="file" name="documentfile" accept=".pdf"> </p>
+<p> Please select your course: <select name="course" onchange="alert(this.value);">
+<option> Option </option>
+<option> BScIT </option>
+<option> BScCsIT </option>
+<option> MBA </option>
+</select>
+</p>
+<p> Place your comment: <textarea name="comment" rows="6" cols="30"> </textarea> </p>
+<p> Enter URL: <input type="url" name="weblink" placeholder="URL"> </p>
+<p> Please Choose Time: <input type="time" name="currenttime"> </p>
+<p> Please Choose Week: <input type="week" name="week"> </p>
+<p> Please select your fav color: <input type="color" name="colortype">
+<p> <input type="submit" name="submit" value="Send Data"> <input type="reset" name="reset" value="Clear Data"> </p>
+</form>
+
+</body>
+</html>
